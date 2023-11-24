@@ -23,7 +23,7 @@ pipeline{
             }
             stage('Run Tests') {
                 steps {
-                // Run ReactJS tests
+                // Run the ReactJS tests
                 sh "npm test"
                 }
             }
